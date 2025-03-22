@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Frontend Component -->
+    <rect x="50" y="50" width="200" height="150" rx="10" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="150" y="85" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">Frontend</text>
+    <line x1="60" y1="100" x2="240" y2="100" stroke="#0B0B45" stroke-width="1"/>
+    <text x="70" y="125" font-family="Arial" font-size="12" fill="#333">- React Components</text>
+    <text x="70" y="145" font-family="Arial" font-size="12" fill="#333">- Context API</text>
+    <text x="70" y="165" font-family="Arial" font-size="12" fill="#333">- React Router</text>
+
+    <!-- Backend API Component -->
+    <rect x="350" y="50" width="200" height="150" rx="10" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="450" y="85" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">Backend API</text>
+    <line x1="360" y1="100" x2="540" y2="100" stroke="#0B0B45" stroke-width="1"/>
+    <text x="370" y="125" font-family="Arial" font-size="12" fill="#333">- Express.js</text>
+    <text x="370" y="145" font-family="Arial" font-size="12" fill="#333">- JWT Auth</text>
+    <text x="370" y="165" font-family="Arial" font-size="12" fill="#333">- Business Logic</text>
+
+    <!-- Database Component -->
+    <rect x="350" y="300" width="200" height="150" rx="10" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="450" y="335" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">Database</text>
+    <line x1="360" y1="350" x2="540" y2="350" stroke="#0B0B45" stroke-width="1"/>
+    <text x="370" y="375" font-family="Arial" font-size="12" fill="#333">- PostgreSQL</text>
+    <text x="370" y="395" font-family="Arial" font-size="12" fill="#333">- Sequelize ORM</text>
+    <text x="370" y="415" font-family="Arial" font-size="12" fill="#333">- Data Models</text>
+
+    <!-- External Services Component -->
+    <rect x="50" y="300" width="200" height="150" rx="10" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="150" y="335" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">External Services</text>
+    <line x1="60" y1="350" x2="240" y2="350" stroke="#0B0B45" stroke-width="1"/>
+    <text x="70" y="375" font-family="Arial" font-size="12" fill="#333">- Email Service</text>
+    <text x="70" y="395" font-family="Arial" font-size="12" fill="#333">- SMS Gateway</text>
+    <text x="70" y="415" font-family="Arial" font-size="12" fill="#333">- Payment Gateway</text>
+
+    <!-- Connections -->
+    <!-- Frontend to Backend -->
+    <line x1="250" y1="125" x2="350" y2="125" stroke="#0B0B45" stroke-width="2"/>
+    <text x="300" y="115" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">REST API</text>
+
+    <!-- Backend to Database -->
+    <line x1="450" y1="200" x2="450" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <text x="470" y="250" text-anchor="start" font-family="Arial" font-size="12" fill="#0B0B45">SQL Queries</text>
+
+    <!-- Backend to External Services -->
+    <line x1="350" y1="175" x2="250" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <text x="270" y="250" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">HTTP/SMTP</text>
+
+    <!-- Interface Symbols -->
+    <circle cx="250" cy="125" r="5" fill="#0B0B45"/>
+    <circle cx="350" cy="125" r="5" fill="#0B0B45"/>
+    <circle cx="450" cy="200" r="5" fill="#0B0B45"/>
+    <circle cx="450" cy="300" r="5" fill="#0B0B45"/>
+    <circle cx="350" cy="175" r="5" fill="#0B0B45"/>
+    <circle cx="250" cy="300" r="5" fill="#0B0B45"/>
+</svg>

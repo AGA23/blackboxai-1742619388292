@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="700" xmlns="http://www.w3.org/2000/svg">
+    <!-- Lifeline Headers -->
+    <!-- Paciente -->
+    <rect x="50" y="50" width="100" height="50" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="100" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Paciente</text>
+    <line x1="100" y1="100" x2="100" y2="650" stroke="#0B0B45" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Frontend -->
+    <rect x="250" y="50" width="100" height="50" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="300" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Frontend</text>
+    <line x1="300" y1="100" x2="300" y2="650" stroke="#0B0B45" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- API -->
+    <rect x="450" y="50" width="100" height="50" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="500" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">API</text>
+    <line x1="500" y1="100" x2="500" y2="650" stroke="#0B0B45" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Base de Datos -->
+    <rect x="650" y="50" width="100" height="50" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="700" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Base de Datos</text>
+    <line x1="700" y1="100" x2="700" y2="650" stroke="#0B0B45" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Notificaciones -->
+    <rect x="800" y="50" width="100" height="50" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="850" y="80" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Notificaciones</text>
+    <line x1="850" y1="100" x2="850" y2="650" stroke="#0B0B45" stroke-width="1" stroke-dasharray="5,5"/>
+
+    <!-- Messages -->
+    <!-- Login -->
+    <line x1="100" y1="150" x2="300" y2="150" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="200" y="140" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">1. Iniciar Sesión</text>
+
+    <line x1="300" y1="180" x2="500" y2="180" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="400" y="170" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">2. Validar Credenciales</text>
+
+    <line x1="500" y1="210" x2="700" y2="210" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="600" y="200" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">3. Consultar Usuario</text>
+
+    <!-- Búsqueda de Horarios -->
+    <line x1="100" y1="270" x2="300" y2="270" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="200" y="260" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">4. Buscar Horarios</text>
+
+    <line x1="300" y1="300" x2="500" y2="300" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="400" y="290" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">5. Obtener Disponibilidad</text>
+
+    <line x1="500" y1="330" x2="700" y2="330" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="600" y="320" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">6. Consultar Agenda</text>
+
+    <!-- Agendar Cita -->
+    <line x1="100" y1="390" x2="300" y2="390" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="200" y="380" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">7. Seleccionar Horario</text>
+
+    <line x1="300" y1="420" x2="500" y2="420" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="400" y="410" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">8. Crear Cita</text>
+
+    <line x1="500" y1="450" x2="700" y2="450" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="600" y="440" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">9. Guardar Cita</text>
+
+    <!-- Notificaciones -->
+    <line x1="500" y1="510" x2="850" y2="510" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="675" y="500" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">10. Enviar Notificación</text>
+
+    <!-- Confirmación -->
+    <line x1="500" y1="570" x2="300" y2="570" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="400" y="560" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">11. Confirmar Reserva</text>
+
+    <line x1="300" y1="600" x2="100" y2="600" stroke="#0B0B45" stroke-width="1" marker-end="url(#arrow)"/>
+    <text x="200" y="590" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">12. Mostrar Confirmación</text>
+
+    <!-- Arrow Marker -->
+    <defs>
+        <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L0,6 L9,3 z" fill="#0B0B45"/>
+        </marker>
+    </defs>
+</svg>

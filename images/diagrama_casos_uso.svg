@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sistema boundary -->
+    <rect x="200" y="50" width="400" height="700" rx="10" fill="none" stroke="#0B0B45" stroke-width="2" stroke-dasharray="5,5"/>
+    <text x="400" y="80" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">Sistema de Gestión de Citas</text>
+
+    <!-- Actors -->
+    <!-- Paciente -->
+    <circle cx="100" cy="200" r="20" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="220" x2="100" y2="270" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="70" y1="245" x2="130" y2="245" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="270" x2="70" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="270" x2="130" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <text x="100" y="330" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Paciente</text>
+
+    <!-- Médico -->
+    <circle cx="700" cy="200" r="20" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="700" y1="220" x2="700" y2="270" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="670" y1="245" x2="730" y2="245" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="700" y1="270" x2="670" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="700" y1="270" x2="730" y2="300" stroke="#0B0B45" stroke-width="2"/>
+    <text x="700" y="330" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Médico</text>
+
+    <!-- Admin -->
+    <circle cx="100" cy="500" r="20" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="520" x2="100" y2="570" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="70" y1="545" x2="130" y2="545" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="570" x2="70" y2="600" stroke="#0B0B45" stroke-width="2"/>
+    <line x1="100" y1="570" x2="130" y2="600" stroke="#0B0B45" stroke-width="2"/>
+    <text x="100" y="630" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">Administrador</text>
+
+    <!-- Use Cases -->
+    <!-- Paciente Use Cases -->
+    <ellipse cx="350" cy="150" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="350" y="155" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Agendar Cita</text>
+
+    <ellipse cx="350" cy="230" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="350" y="235" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Ver Historial</text>
+
+    <ellipse cx="350" cy="310" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="350" y="315" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Gestionar Perfil</text>
+
+    <!-- Médico Use Cases -->
+    <ellipse cx="450" cy="390" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="450" y="395" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Ver Agenda</text>
+
+    <ellipse cx="450" cy="470" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="450" y="475" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Registrar Consulta</text>
+
+    <!-- Admin Use Cases -->
+    <ellipse cx="350" cy="550" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="350" y="555" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Gestionar Usuarios</text>
+
+    <ellipse cx="350" cy="630" rx="100" ry="30" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="350" y="635" text-anchor="middle" font-family="Arial" font-size="12" fill="#0B0B45">Gestionar Sucursales</text>
+
+    <!-- Connections -->
+    <!-- Paciente connections -->
+    <line x1="120" y1="200" x2="250" y2="150" stroke="#0B0B45" stroke-width="1"/>
+    <line x1="120" y1="200" x2="250" y2="230" stroke="#0B0B45" stroke-width="1"/>
+    <line x1="120" y1="200" x2="250" y2="310" stroke="#0B0B45" stroke-width="1"/>
+
+    <!-- Médico connections -->
+    <line x1="680" y1="200" x2="550" y2="390" stroke="#0B0B45" stroke-width="1"/>
+    <line x1="680" y1="200" x2="550" y2="470" stroke="#0B0B45" stroke-width="1"/>
+
+    <!-- Admin connections -->
+    <line x1="120" y1="500" x2="250" y2="550" stroke="#0B0B45" stroke-width="1"/>
+    <line x1="120" y1="500" x2="250" y2="630" stroke="#0B0B45" stroke-width="1"/>
+</svg>

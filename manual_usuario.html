@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario - Sistema de Gestión de Citas Médicas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        @media print {
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Portada -->
+        <div class="text-center mb-16">
+            <h1 class="text-4xl font-bold text-blue-800 mb-4">Manual de Usuario</h1>
+            <h2 class="text-2xl text-gray-700 mb-2">Sistema de Gestión de Citas Médicas</h2>
+            <h3 class="text-xl text-gray-600">Clínica de Ozonoterapia</h3>
+            <p class="mt-4 text-gray-500">Versión 1.0</p>
+        </div>
+
+        <!-- Índice -->
+        <div class="mb-12">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">Índice</h2>
+            <ul class="space-y-2">
+                <li><a href="#introduccion" class="text-blue-600 hover:underline">1. Introducción</a></li>
+                <li><a href="#acceso" class="text-blue-600 hover:underline">2. Acceso al Sistema</a></li>
+                <li><a href="#pacientes" class="text-blue-600 hover:underline">3. Guía para Pacientes</a></li>
+                <li><a href="#doctores" class="text-blue-600 hover:underline">4. Guía para Doctores</a></li>
+                <li><a href="#administradores" class="text-blue-600 hover:underline">5. Guía para Administradores</a></li>
+                <li><a href="#faq" class="text-blue-600 hover:underline">6. Preguntas Frecuentes</a></li>
+            </ul>
+        </div>
+
+        <!-- Introducción -->
+        <div id="introduccion" class="mb-12">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">1. Introducción</h2>
+            <p class="text-gray-700 mb-4">
+                Bienvenido al Sistema de Gestión de Citas Médicas de la Clínica de Ozonoterapia. Este manual le guiará a través de todas las funcionalidades disponibles según su rol en el sistema.
+            </p>
+            <p class="text-gray-700 mb-4">
+                El sistema permite:
+            </p>
+            <ul class="list-disc list-inside space-y-2 text-gray-700 ml-4">
+                <li>Gestión de citas médicas</li>
+                <li>Acceso a historiales médicos</li>
+                <li>Sistema de notificaciones automáticas</li>
+                <li>Gestión de múltiples sucursales</li>
+            </ul>
+        </div>
+
+        <!-- Acceso al Sistema -->
+        <div id="acceso" class="mb-12 page-break">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">2. Acceso al Sistema</h2>
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">2.1 Registro de Usuario</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a la página principal del sistema</li>
+                    <li>Haga clic en "Registrarse"</li>
+                    <li>Complete el formulario con sus datos personales</li>
+                    <li>Verifique su correo electrónico</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">2.2 Inicio de Sesión</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Ingrese su correo electrónico</li>
+                    <li>Ingrese su contraseña</li>
+                    <li>Seleccione "Mantener sesión iniciada" si lo desea</li>
+                    <li>Haga clic en "Iniciar Sesión"</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Guía para Pacientes -->
+        <div id="pacientes" class="mb-12 page-break">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">3. Guía para Pacientes</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">3.1 Agendar una Cita</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a su panel de paciente</li>
+                    <li>Haga clic en "Nueva Cita"</li>
+                    <li>Seleccione la sucursal de su preferencia</li>
+                    <li>Elija el doctor y la fecha disponible</li>
+                    <li>Confirme su cita</li>
+                    <li>Recibirá un correo de confirmación</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">3.2 Ver Historial Médico</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>En su panel, seleccione "Mi Historial"</li>
+                    <li>Podrá ver todas sus consultas anteriores</li>
+                    <li>Acceda a los detalles de cada consulta</li>
+                    <li>Revise diagnósticos y tratamientos</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">3.3 Gestionar Notificaciones</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Vaya a "Configuración"</li>
+                    <li>Seleccione "Notificaciones"</li>
+                    <li>Active/desactive notificaciones por email o SMS</li>
+                    <li>Configure recordatorios de citas</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Guía para Doctores -->
+        <div id="doctores" class="mb-12 page-break">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">4. Guía para Doctores</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">4.1 Gestión de Agenda</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a "Mi Agenda"</li>
+                    <li>Visualice citas programadas</li>
+                    <li>Configure horarios disponibles</li>
+                    <li>Gestione cancelaciones y reprogramaciones</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">4.2 Atención al Paciente</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Seleccione la cita actual</li>
+                    <li>Acceda al historial del paciente</li>
+                    <li>Registre notas y observaciones</li>
+                    <li>Actualice el tratamiento</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">4.3 Análisis Inteligente</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a "Análisis de Patrones"</li>
+                    <li>Revise sugerencias del sistema</li>
+                    <li>Analice tendencias de tratamientos</li>
+                    <li>Consulte alertas y recomendaciones</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Guía para Administradores -->
+        <div id="administradores" class="mb-12 page-break">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">5. Guía para Administradores</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">5.1 Gestión de Usuarios</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a "Gestión de Usuarios"</li>
+                    <li>Cree nuevos usuarios</li>
+                    <li>Asigne roles y permisos</li>
+                    <li>Gestione accesos y bloqueos</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md mb-6">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">5.2 Gestión de Sucursales</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Vaya a "Administración de Sucursales"</li>
+                    <li>Configure nuevas sucursales</li>
+                    <li>Asigne doctores a sucursales</li>
+                    <li>Gestione horarios y disponibilidad</li>
+                </ol>
+            </div>
+
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">5.3 Reportes y Estadísticas</h3>
+                <ol class="list-decimal list-inside space-y-2 text-gray-700">
+                    <li>Acceda a "Reportes"</li>
+                    <li>Genere informes de actividad</li>
+                    <li>Analice métricas de uso</li>
+                    <li>Exporte datos para análisis</li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- Preguntas Frecuentes -->
+        <div id="faq" class="mb-12 page-break">
+            <h2 class="text-2xl font-bold text-blue-800 mb-4">6. Preguntas Frecuentes</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-md space-y-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">¿Cómo recupero mi contraseña?</h3>
+                    <p class="text-gray-700">Haga clic en "¿Olvidó su contraseña?" en la página de inicio de sesión y siga las instrucciones enviadas a su correo electrónico.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">¿Cómo cancelo una cita?</h3>
+                    <p class="text-gray-700">Acceda a "Mis Citas", seleccione la cita que desea cancelar y haga clic en "Cancelar Cita". Debe hacerlo con al menos 24 horas de anticipación.</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">¿Puedo cambiar mi sucursal preferida?</h3>
+                    <p class="text-gray-700">Sí, puede actualizar su sucursal preferida en cualquier momento desde la sección "Mi Perfil".</p>
+                </div>
+
+                <div>
+                    <h3 class="text-lg font-semibold text-gray-800 mb-2">¿Cómo actualizo mis datos personales?</h3>
+                    <p class="text-gray-700">Vaya a "Mi Perfil", haga clic en "Editar" y actualice la información necesaria.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

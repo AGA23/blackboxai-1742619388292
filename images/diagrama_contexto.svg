@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sistema Central -->
+    <circle cx="400" cy="300" r="120" fill="#e6f3ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="400" y="300" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#0B0B45">Sistema de Gestión</text>
+    <text x="400" y="325" text-anchor="middle" font-family="Arial" font-size="14" fill="#0B0B45">de Citas Médicas</text>
+
+    <!-- Pacientes -->
+    <circle cx="150" cy="200" r="70" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0B0B45">Pacientes</text>
+
+    <!-- Médicos -->
+    <circle cx="650" cy="200" r="70" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="650" y="200" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0B0B45">Médicos</text>
+
+    <!-- Administradores -->
+    <circle cx="150" cy="400" r="70" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="150" y="400" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0B0B45">Administradores</text>
+
+    <!-- Servicios Externos -->
+    <circle cx="650" cy="400" r="70" fill="#f0f9ff" stroke="#0B0B45" stroke-width="2"/>
+    <text x="650" y="390" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0B0B45">Servicios</text>
+    <text x="650" y="410" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#0B0B45">Externos</text>
+
+    <!-- Conexiones -->
+    <line x1="220" y1="200" x2="280" y2="250" stroke="#0B0B45" stroke-width="2"/>
+    <text x="250" y="200" font-family="Arial" font-size="12" fill="#0B0B45">Agenda Citas</text>
+
+    <line x1="520" y1="250" x2="580" y2="200" stroke="#0B0B45" stroke-width="2"/>
+    <text x="550" y="200" font-family="Arial" font-size="12" fill="#0B0B45">Atiende Pacientes</text>
+
+    <line x1="220" y1="400" x2="280" y2="350" stroke="#0B0B45" stroke-width="2"/>
+    <text x="250" y="400" font-family="Arial" font-size="12" fill="#0B0B45">Gestiona Sistema</text>
+
+    <line x1="520" y1="350" x2="580" y2="400" stroke="#0B0B45" stroke-width="2"/>
+    <text x="550" y="400" font-family="Arial" font-size="12" fill="#0B0B45">Notificaciones</text>
+</svg>

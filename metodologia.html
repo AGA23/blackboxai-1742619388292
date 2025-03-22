@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología - Sistema de Gestión de Citas Médicas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e6f3ff 100%);
+        }
+        .molecular-bg {
+            background-image: url('images/molecular-bg.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .diagram-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+        .diagram-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body class="gradient-bg min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+    <header class="text-center mb-12 molecular-bg p-16 rounded-lg shadow-lg">
+            <h1 class="text-4xl font-bold text-[#0B0B45] mb-4 bg-white/80 inline-block px-6 py-3 rounded-lg">Metodología y Arquitectura</h1>
+            <p class="text-xl text-gray-600 bg-white/80 inline-block px-6 py-2 rounded-lg mt-4">Sistema de Gestión de Citas Médicas - Ozonoterapia</p>
+        </header>
+
+        <main class="bg-white/95 backdrop-blur-sm rounded-lg shadow-lg p-8 mb-8">
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold text-[#0B0B45] mb-6">
+                    <i class="fas fa-layer-group mr-2"></i>
+                    Arquitectura del Sistema
+                </h2>
+                <div class="pl-4 border-l-4 border-blue-200">
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Capa de Presentación (Frontend)</h3>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                        <li>Interfaz de usuario desarrollada con React</li>
+                        <li>Diseño responsivo con Tailwind CSS</li>
+                        <li>Sistema de rutas con React Router</li>
+                        <li>Gestión de estado con Context API/Redux</li>
+                    </ul>
+
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Capa de Negocio (Backend)</h3>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                        <li>API RESTful con Node.js y Express</li>
+                        <li>Autenticación JWT y manejo de roles</li>
+                        <li>Servicios de notificación (email/SMS)</li>
+                        <li>Módulos inteligentes de optimización</li>
+                    </ul>
+
+                    <h3 class="text-xl font-medium text-gray-800 mb-4">Capa de Datos</h3>
+                    <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                        <li>Base de datos PostgreSQL</li>
+                        <li>ORM Sequelize para mapeo objeto-relacional</li>
+                        <li>Esquema optimizado para gestión médica</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold text-[#0B0B45] mb-6">
+                    <i class="fas fa-code-branch mr-2"></i>
+                    Metodología de Desarrollo
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Enfoque Ágil (SCRUM)</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Sprints de 2 semanas</li>
+                            <li>Reuniones diarias de seguimiento</li>
+                            <li>Revisiones y retrospectivas</li>
+                            <li>Entregas incrementales</li>
+                        </ul>
+                    </div>
+                    <div class="bg-blue-50 p-6 rounded-lg">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Calidad y Testing</h3>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Test-Driven Development (TDD)</li>
+                            <li>Pruebas unitarias y de integración</li>
+                            <li>Code reviews periódicos</li>
+                            <li>Integración continua</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-12">
+                <h2 class="text-2xl font-semibold text-[#0B0B45] mb-6">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    Seguridad y Buenas Prácticas
+                </h2>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-600">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span>Encriptación de datos sensibles</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span>Validación de entrada de datos</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span>Control de acceso basado en roles</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mt-1 mr-2"></i>
+                            <span>Logs de auditoría</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <h2 class="text-2xl font-semibold text-[#0B0B45] mb-6">
+                    <i class="fas fa-project-diagram mr-2"></i>
+                    Diagramas del Sistema
+                </h2>
+                <div class="space-y-6">
+                    <!-- Diagrama de Contexto -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Contexto</h3>
+                        <p class="text-gray-600 mb-4">Representa la interacción del sistema con actores externos y servicios.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_contexto.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Contexto
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama de Casos de Uso -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Casos de Uso</h3>
+                        <p class="text-gray-600 mb-4">Muestra las funcionalidades principales del sistema y su interacción con los usuarios.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_casos_uso.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Casos de Uso
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama de Secuencia -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Secuencia</h3>
+                        <p class="text-gray-600 mb-4">Ilustra el flujo de interacciones para el proceso de agendar una cita.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_secuencia.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Secuencia
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama de Componentes -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Componentes</h3>
+                        <p class="text-gray-600 mb-4">Detalla la arquitectura técnica y la interacción entre los componentes del sistema.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_componentes.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Componentes
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama de Entidades -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Entidades</h3>
+                        <p class="text-gray-600 mb-4">Representa la estructura de la base de datos y las relaciones entre entidades.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_er.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Entidad-Relación
+                            </object>
+                        </div>
+                    </div>
+
+                    <!-- Diagrama de Clases -->
+                    <div class="border border-gray-200 rounded-lg p-4">
+                        <h3 class="text-xl font-medium text-gray-800 mb-4">Diagrama de Clases</h3>
+                        <p class="text-gray-600 mb-4">Muestra la estructura de clases del sistema y sus relaciones.</p>
+                        <div class="diagram-container bg-white/90 p-4 rounded border border-gray-200 hover:bg-white transition-colors duration-300 shadow-md">
+                            <object data="images/diagrama_clases.svg" type="image/svg+xml" width="100%" height="600">
+                                Diagrama de Clases
+                            </object>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="text-center text-gray-600 mt-8">
+            <p>© 2024 Sistema de Gestión de Citas Médicas - Ozonoterapia</p>
+        </footer>
+    </div>
+</body>
+</html>
